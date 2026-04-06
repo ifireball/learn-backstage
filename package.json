@@ -39,7 +39,9 @@
   },
   "resolutions": {
     "@types/react": "^17",
-    "@types/react-dom": "^17"
+    "@types/react-dom": "^17",
+    "undici": "^5.28.0",
+    "isolated-vm": "^4.0.0"
   },
   "prettier": "@spotify/prettier-config",
   "lint-staged": {
