@@ -1,8 +1,6 @@
-import {
-  createRouter,
-  providers,
-  defaultAuthProviderFactories,
-} from '@backstage/plugin-auth-backend';
+const { createRouter, providers, defaultAuthProviderFactories } =
+  require('@backstage/plugin-auth-backend') as any;
+
 import { Router } from 'express';
 import { PluginEnvironment } from '../types';
 
