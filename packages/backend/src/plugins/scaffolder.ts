@@ -1,5 +1,7 @@
 import { CatalogClient } from '@backstage/catalog-client';
-import { createRouter } from '@backstage/plugin-scaffolder-backend';
+
+const { createRouter } = require('@backstage/plugin-scaffolder-backend') as any;
+
 import { Router } from 'express';
 import type { PluginEnvironment } from '../types';
 
