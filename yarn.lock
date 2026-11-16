@@ -11674,10 +11674,10 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-async-lock@^1.1.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/async-lock/-/async-lock-1.4.0.tgz#c8b6630eff68fbbdd8a5b6eb763dac3bfbb8bf02"
-  integrity sha512-coglx5yIWuetakm3/1dsX9hxCNox22h7+V80RQOu2XUUMidtArxKoZoOtHUPuR84SycKTXzgGzAUR5hJxujyJQ==
+async-lock@^1.4.1:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/async-lock/-/async-lock-1.5.0.tgz#8522efd4364fe071b4f70ed945344a05068e1935"
+  integrity sha512-JgULma1mWaHlyJ67lvicyel5Cq+k55bXafE0gyvJBdHkH0vdE/IGGDF1glNyRInisNS6pZL2oho96S6Hw68kfQ==
 
 async-mutex@^0.5.0:
   version "0.5.0"
@@ -17771,11 +17771,11 @@ isomorphic-form-data@^2.0.0:
     form-data "^2.3.2"
 
 isomorphic-git@^1.23.0:
-  version "1.24.5"
-  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.24.5.tgz#f4816494eae81d94f9fd3a6d657b02cd0a08c456"
-  integrity sha512-07M4YscftHZJIuw7xZhgWkdFvVjHSBJBsIwWXkxgFCivhb0l8mGNchM7nO2hU27EKSIf0sT4gJivEgLGohWbzA==
+  version "1.44.12"
+  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.44.12.tgz#621d2d52e991824ce72fcc1186f25db611f3be6b"
+  integrity sha512-Qfu5/YMcN1YyGqT3ZUmgFIlbj/bFwbwMbF4zlitrRGGyujyqtgMCOTy07mfca/iugH1ECpF6rlebFDceRs+MNg==
   dependencies:
-    async-lock "^1.1.0"
+    async-lock "^1.4.1"
     clean-git-ref "^2.0.1"
     crc-32 "^1.2.0"
     diff3 "0.0.3"
@@ -17783,8 +17783,7 @@ isomorphic-git@^1.23.0:
     minimisted "^2.0.0"
     pako "^1.0.10"
     pify "^4.0.1"
-    readable-stream "^3.4.0"
-    sha.js "^2.4.9"
+    sha.js "^2.4.12"
     simple-get "^4.0.1"
 
 isomorphic-textencoder@^1.0.1:
@@ -23884,7 +23883,7 @@ setprototypeof@1.2.0, setprototypeof@~1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-sha.js@^2.4.0, sha.js@^2.4.11, sha.js@^2.4.8, sha.js@^2.4.9:
+sha.js@^2.4.0, sha.js@^2.4.11, sha.js@^2.4.12, sha.js@^2.4.8:
   version "2.4.12"
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.12.tgz#eb8b568bf383dfd1867a32c3f2b74eb52bdbf23f"
   integrity sha512-8LzC5+bvI45BjpfXU8V5fdU2mfeKiQe1D1gIMn7XUlF3OTUrpdJpPPH4EMAnF0DsHHdSZqCdSss5qCmJKuiO3w==
